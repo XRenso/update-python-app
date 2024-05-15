@@ -1,13 +1,13 @@
 class program_status:
     def __init__(self):
-        self.version = '1.0.0'
+        self.version = 'v1.0.2'
         self.author = 'XRenso'
         self.name = 'Small Logic'
 
 
 
 def main():
-    print('heeey')
+    print('Yooo')
 
 program = program_status()
 
