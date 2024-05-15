@@ -9,8 +9,10 @@ class program_status:
 def main():
     print('heeey')
 
-
+program = program_status()
 
 def run():
     main()
+    print(program.author)
+    print(program.version)
     input()
