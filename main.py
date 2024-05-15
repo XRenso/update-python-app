@@ -1,8 +1,8 @@
 class program_status:
     def __init__(self):
-        self.version = 'v1.0.3'
         self.author = 'XRenso'
         self.name = 'Small Logic'
+        self.version = open('version.txt','r').readline().strip()
 
 
 
